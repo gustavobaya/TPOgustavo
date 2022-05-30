@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,300;1,500;1,600;1,700&display=swap');
+
+
+ /* reset */
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/* Main Styling */
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 32px; }
+h3 { font-size: 28px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+p {
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Mobile First */
+/* utility Classes */
+.container {
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* header */
+#main-header {
+    background: url(../imagenes/vuelo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+}
+
+.btn{
+    background-color: #008CBA;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.order-btn{
+    background-color: #008CBA; 
+    color: white; 
+}
+.order-btn:hover {
+    background-color: #024c64;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content{
+    padding: 5rem 1rem;
+    color: white;
+    text-shadow: 0 0.2em 1em rgb(2, 3, 92), 0 0 1em rgb(255, 165, 152)
+}
+
+/* SECCION DESCRIPCION */
+#description {
+    display: flex;
+    justify-content: center;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.description-box {
+    margin-bottom: 3rem;
+}
+
+.description-row {
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.description-title{
+    margin: 2rem 0;
+}
+.description-image {
+    width:6rem;
+    height: 6rem;;
+}
+
+/* SECCION TESTIMONIOS */
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    /* margin-bottom: 3rem; */
+    background-color: aquamarine;
+}
+.testimonial-title{
+    margin-bottom: 1rem;
+}
+
+.testimonial-img-container{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.testimonial-cover{
+    width: 100%;
+}
+
+/* SECCION DE CARACTERISTICAS */
+#features {
+    text-align: center;
+}
+
+.feature-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-title{
+    margin-bottom: 2rem;
+}
+
+.features-card{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.2);
+}
+
+/*SECCION CONTACTO*/
+.contact-form-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 3rem 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.submit-btn{
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover{
+    background-color: #024c64;
+    transform: scale(1.1);
+}
+
+
+/* FOOTER */
+#footer, #footer p{
+    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+    margin: 0;
+}

@@ -1,0 +1,27 @@
+@media (min-width:1024px) {
+    #main-header{
+        text-align: center;
+    }
+    .header-container {
+        margin:0px auto;
+    }
+
+    .header-content p{
+        margin: 3rem 0;
+    }
+    .description-row {
+        width: 100%;
+    }
+
+    .feature-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .features-card {
+        width: 400px;
+    }
+
+}

@@ -1,0 +1,15 @@
+@media (min-width:600px) {
+
+    .description-row {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .description-box {
+        width: 200px;
+    }
+
+    
+}
