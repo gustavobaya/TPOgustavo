@@ -8,6 +8,7 @@
      box-sizing: border-box;
  }
 
+ 
 /* Main Styling */
 html,
 body{
@@ -39,8 +40,14 @@ a {
     padding: 0 20px;
 }
 
+.header {
+  position: fixed;
+  width: 100vw;
+}
+
 /* header */
 #main-header {
+    padding-top: 100px;
     background: url(../imagenes/vuelo.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,6 +148,7 @@ a {
 
 /* SECCION DE CARACTERISTICAS */
 #features {
+    padding-top: 5rem;
     text-align: center;
 }
 
@@ -169,13 +177,25 @@ a {
 }
 
 /*SECCION CONTACTO*/
+#contact {
+  margin: 5rem 0;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
 .contact-form-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+  padding: 0.5rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
 }
 
 form {
@@ -203,3 +223,10 @@ form {
     color: aliceblue;
     margin: 0;
 }
+
+
+
+
+
+
+ 
